@@ -7,5 +7,20 @@ body{
     background-image: url("./img/showcase.jpg");
 }
 .news{
-background-color: beige;
+background-color: lightgrey;
+border: solid black;
+margin: 10px;
+padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
 }
